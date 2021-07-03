@@ -1,0 +1,46 @@
+.homeHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerTitle{
+    display: inherit;
+    padding-bottom: 1rem;
+    color: black;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+
+
+button{
+    color: white;
+    background: #09357B;
+    border: none;
+    display: block;
+    width: 160px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2px;
+    padding-top: 2px;
+}
+
+.selectOption{
+    padding-left: 20px;
+}
+
+.selectOption > select{
+    width: 250px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+}
+
+
+.newOption{
+    display: flex;
+    align-items: center;
+}
